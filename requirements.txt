@@ -1,0 +1,20 @@
+#
+# Conda configuration
+# conda create  --yes --name oai python=3.10
+# conda install --yes --name oai --file requirements.txt
+#
+# VirtualEnv
+# python -m venv venv
+# source venv/bin/activate
+# pip install --upgrade pip
+# pip install -r requirements.txt
+#
+
+
+# 2023-06-14: Ubuntu 20.04 + PyQt6 v6.5.1 :
+# ImportError: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.35' not found
+
+pyqt6==6.4.0
+openai
+requests
+pyinstaller
